@@ -36,6 +36,7 @@ pipeline {
                                 "flat": "false",
                                 "props": "${properties}",
                                 "exclusions": ["*.sha1", "*.md5"]
+                                
                             }
                         ]
                     }"""
@@ -51,3 +52,4 @@ pipeline {
         }
     }
 }
+
